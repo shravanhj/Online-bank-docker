@@ -4,8 +4,8 @@ import pandas as pd
 import io
 from datetime import datetime
 
-DYNATRACE_URL = "https://bom85898.live.dynatrace.com"
-API_TOKEN = "dt0c01.MLCDC5UUMCEFRCCSJ3XKFMS3.VEYSFCORQYMCJFMP4QOJNM5QVS6NTZLMM6RUF2H542DDWSY7K4MWZMQSJ3MK6WXA"
+DYNATRACE_URL = ""
+API_TOKEN = ""
 HEADERS = {
     "Authorization": f"Api-Token {API_TOKEN}"
 }
