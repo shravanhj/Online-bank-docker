@@ -22,7 +22,8 @@ def main():
     params = {
         "pageSize": 10,
         "from": "now-1d",
-        "to": "now"
+        "to": "now",
+        "problemSelector": 'status("open")'
     }
 
     res = requests.get(url, headers=HEADERS, params=params)
