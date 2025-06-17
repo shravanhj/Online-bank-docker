@@ -23,7 +23,7 @@ def main():
         "pageSize": 10,
         "from": "now-1d",
         "to": "now",
-        "problemSelector": 'status("open")'
+        "problemSelector": 'status("open", "closed')'
     }
 
     res = requests.get(url, headers=HEADERS, params=params)
